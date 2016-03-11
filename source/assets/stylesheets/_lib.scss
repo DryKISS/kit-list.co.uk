@@ -1,0 +1,29 @@
+//
+// Lib
+//
+// @author Ian Warner <ian.warner@drykiss.com>
+//----------------------------------------------------------------------------//
+
+// Body
+//----------------------------------------------------------------------------//
+body {
+    padding-top   : 30px;
+    margin-bottom : 168px;
+}
+
+hr {
+    border-color : purple;
+}
+
+footer {
+
+    .footer {
+        border-top : 4px solid purple;
+    }
+
+    position         : absolute;
+    bottom           : 0;
+    width            : 100%;
+    height           : 168px;
+    background-color : #f5f5f5;
+}

@@ -1,0 +1,68 @@
+##
+# Configuration YAML
+# Contains the configuration for the core framework
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+##
+
+---
+
+# Version - This needs to be iterated on each distribution
+version : "1.0.0"
+
+# HTML tag
+html :
+    angular  : "app"
+    manifest : false
+
+# Head
+head :
+    prefix : false
+
+# Body
+body       :
+    spy    : false
+    target : false
+    offset : false
+
+# Brand
+brand : "MaiTai"
+url   : "http://maitaigroup.com"
+
+# JavaScript
+javascript :
+    head : false
+    body : true
+
+# Sections
+breadcrumbs   : false
+container     : "container"
+description   : false
+heading       : false
+topIcon       : false
+
+# Extras
+configuration : false
+resources     : false
+todo          : false
+
+# Meta
+favicon       : "favicon.ico"
+meta :
+    apple    : false
+    core     : true
+    dublin   : false
+    facebook : false
+    fancy    : false
+    favicon  : false
+    feed     : false
+    google   : false
+    mobile   : true
+    touch    : false
+    twitter  : false
+
+# Footer
+copyright     : true
+footer :
+    active     : true
+    extraClass : "noBackground"

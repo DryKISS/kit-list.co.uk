@@ -1,0 +1,24 @@
+---
+
+# Variables
+stub : "index"
+
+---
+
+-# Bootstrap container
+.container
+
+    -# Bootstrap row
+    .row
+
+        -# Bootstrap column
+        .col-md-6.col-md-offset-3
+
+            -# Image
+            = codeBlender "heading", "molecule", { small: "Organise and analyse your sporting gear", text: "Kit list" }
+
+            %hr
+
+            -# Heading
+            = codeBlender "heading", "molecule", { tag: "h2", text: "Coming soon, a tool for active sports people." }
+            = codeBlender "heading", "molecule", { tag: "h3", text: "Compare, value and share your cycling sportswear." }

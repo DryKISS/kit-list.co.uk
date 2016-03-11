@@ -1,0 +1,87 @@
+##
+# English Locale File
+#
+# @author Ian Warner <ian.warner@drykiss.com>
+##
+
+---
+
+# English
+en:
+
+    # Locale
+    locale : "en"
+
+
+    # Meta
+    # Automatically configures the Meta based on page name
+    meta :
+
+        # Global
+        publisher        : "Kit List Ltd"
+        publisherAddress : "info@kit-list.co.uk"
+        rights           : "&copy; 2015, Kit List Ltd. All rights reserved."
+        itemType         : "WebPage"
+
+        # Index
+        index :
+            author      : "KitList"
+            description : "Kit list organising your cycling sports kit and gear"
+            image       : false
+            subject     : "MaiTai"
+            title       : "Kit list organising your cycling sports kit and gear"
+            type        : "website"
+
+    # Copyright
+    copyright :
+        brand  : "Kit List Ltd"
+        rights : "All rights reserved."
+
+    # Footer
+    footer :
+
+        # Column One
+        - title       : "About"
+          icon        : "fa-info"
+          description : |
+            Started in London 2015 by an avid cycling fan. Kit list aims to simplify
+            the organisation of your sports peripherals, kit, gear or whatever
+            you like to call it.
+
+        # Column Two
+        - title       : "What We Do"
+          icon        : "fa-cogs"
+          description : |
+            We aim to become a social sports platform where the focus in on finding
+            and sharing the best gear to suit your level, weather, location and
+            athletic level.
+
+        # Column Three
+        - title       : "Social"
+          icon        : "fa-twitter"
+          extraClass  : "social"
+          description : |
+
+            <div class="socialList">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <span class="fa fa-facebook" title="Facebook"></span>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <span class="fa fa-twitter" title="Twitter"></span>
+                </a>
+            </div>
+
+        # Column Four
+        - title       : "Contact"
+          icon        : "fa-phone"
+          description : |
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                London, UK
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <a mailto="info@kit-list.co.uk">info@kit-list.co.uk</a>
+            </div>

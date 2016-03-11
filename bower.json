@@ -1,0 +1,28 @@
+{
+    "name"     : "codeblender.net",
+    "version"  : "0.0.1",
+    "homepage" : "http://codeblender.net",
+
+    "authors"  : [
+        "Ian Warner <ian.warner@drykiss.com>"
+    ],
+
+    "dependencies" : {
+
+        "bootstrap-sass-official" : "",
+        "font-awesome"            : "",
+        "jquery"                  : ""
+
+    },
+
+    "license" : "MIT",
+
+    "ignore" : [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+
+}
