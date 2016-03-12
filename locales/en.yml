@@ -45,16 +45,14 @@ en:
           icon        : "fa-info"
           description : |
             Started in London 2015 by an avid cycling fan. Kit list aims to simplify
-            the organisation of your sports peripherals, kit, gear or whatever
-            you like to call it.
+            the organisation of your sports kit.
 
         # Column Two
         - title       : "What We Do"
           icon        : "fa-cogs"
           description : |
             We aim to become a social sports platform where the focus in on finding
-            and sharing the best gear to suit your level, weather, location and
-            athletic level.
+            and sharing the best gear to suit your athletic level, weather and location.
 
         # Column Three
         - title       : "Social"

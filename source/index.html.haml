@@ -12,13 +12,16 @@ stub : "index"
     .row
 
         -# Bootstrap column
-        .col-md-6.col-md-offset-3
+        .col-md-12.text-center
 
-            -# Image
-            = codeBlender "heading", "molecule", { small: "Organise and analyse your sporting gear", text: "Kit list" }
-
-            %hr
-
-            -# Heading
-            = codeBlender "heading", "molecule", { tag: "h2", text: "Coming soon, a tool for active sports people." }
-            = codeBlender "heading", "molecule", { tag: "h3", text: "Compare, value and share your cycling sportswear." }
+            = codeBlender "heading", "molecule", { text: "Kit list" }
+            = codeBlender "heading", "molecule", { tag: "h2", text: "Manage your gear, maximise your performance" }
+            %br
+            %br
+            = codeBlender "heading", "molecule", { tag: "h3", text: "Coming soon..." }
+            = codeBlender "heading", "molecule", { tag: "h3", text: "Kit List is an online sports kit management service being developed for athletes by athletes" }
+            %br
+            %br
+            = codeBlender "heading", "molecule", { tag: "h3", text: "Want to know more? Sign up to our mailing list to keep updated" }
+            %a{ href:"mailto:info@kit-list.co.uk"}
+                = codeBlender "heading", "molecule", { tag: "h3", text: "info@kit-list.co.uk" }
